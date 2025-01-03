@@ -1,1 +1,1 @@
-"# yt-dlp-helper" 
+# yt-dlp-helper
