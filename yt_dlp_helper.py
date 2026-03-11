@@ -68,3 +68,6 @@ Choose a format:
 Wrong input.
 Please try again:
 """)
+
+# Update with:
+# python3 -m pip install -U "yt-dlp[default]" (and maybe add --break-system-packages if installation fails)
