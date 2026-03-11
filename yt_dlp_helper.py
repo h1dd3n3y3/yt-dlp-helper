@@ -16,6 +16,7 @@ def download_audio(url, download_path):
         'quiet': True,  # Suppress all output
         'no_warnings': True,  # Suppress warnings
     }
+    # yt-dlp -f bestaudio/best --extract-audio --audio-format mp3 --audio-quality 192K -o "%(title)s.%(ext)s" "VIDEO_URL"
 
     print("\nDownloading mp3 audio format...")
     
@@ -34,6 +35,7 @@ def download_video(url, download_path):
         'quiet': True,  # Suppress all output
         'no_warnings': True,  # Suppress warnings
     }
+    # yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]" --merge-output-format mp4 -o "%(title)s.%(ext)s" "VIDEO_URL"
 
     print("\nDownloading mp4 video format...")
 
